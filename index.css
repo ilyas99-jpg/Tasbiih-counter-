@@ -38,7 +38,9 @@ button {
     margin-bottom: 5px;
     border-radius: 5px;
 }
-
+#reset-btn{
+    background: #d8323d;
+}
 #increment-btn {
     background: #00454D;
 }

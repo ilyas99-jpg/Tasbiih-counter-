@@ -1,5 +1,6 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
+resetBtn = document.getElementById("reset-btn")
 let count = 0
 
 function increment() {
@@ -12,4 +13,9 @@ function save() {
     saveEl.textContent += countStr
     countEl.textContent = 0
     count = 0
+}
+
+function reset() {
+    countEl.textContent = 0
+    saveEl.textContent = "Previous entries: "
 }
